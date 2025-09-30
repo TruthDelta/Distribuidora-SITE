@@ -1,0 +1,25 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #141414;
+padding: 10vh;
+color: white;
+display: flex;
+text-align: center;
+justify-content: space-around;
+}
+
+header h1 {
+padding: 20px;
+border: 20px;
+}
+
+header div a {
+color: white;
+padding: 10vh;
+text-decoration: none;
+justify-content: ;
+}
