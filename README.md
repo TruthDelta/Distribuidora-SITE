@@ -1,3 +1,3 @@
 Link para Visualização:
 
-http://127.0.0.1:5500/Homepage/
+https://truthdelta.github.io/Distribuidora-SITE/
