@@ -21,5 +21,6 @@ header div a {
 color: white;
 padding: 10vh;
 text-decoration: none;
-justify-content: ;
+display: flex;
+justify-content: end;
 }
