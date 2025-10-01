@@ -170,100 +170,94 @@ footer div p {
     color: black;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     header {
         flex-direction: column;
-        gap: 20px;
+        gap: 1em;
         padding: 5vh 5vw;
     }
 
-    header h1 {
-        font-size: 5vh;
-    }
-
-    header div a {
-        font-size: 3vh;
-    }
-
     #secao-1 h2 {
-        font-size: 8vh;
-    }
-
-    #secao-1 div,
-    #secao-2 div {
-        font-size: 18px;
-        letter-spacing: 5px;
-    }
-}
-
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 4.5vh;
-    }
-
-    header div {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    section {
-        padding: 5vh 3vw;
-    }
-
-    #secao-1 h2 {
-        font-size: 6vh;
-    }
-
-    #secao-2 h2 {
-        font-size: 3vh;
+        font-size: 4em;
     }
 
     #contato h1 {
-        font-size: 4vh;
-    }
-
-    #contato h2 {
-        font-size: 2.5vh;
-    }
-}
-
-@media (max-width: 480px) {
-    header {
-        padding: 3vh 3vw;
-    }
-
-    header h1 {
-        font-size: 3.5vh;
-        padding: 5px;
-    }
-
-    header div a {
-        font-size: 2.5vh;
-    }
-
-    #secao-1 h1,
-    #secao-2 h1 {
-        font-size: 3.5vh;
-    }
-
-    #secao-1 h2 {
-        font-size: 5vh;
-    }
-
-    #contato h1 {
-        font-size: 3.5vh;
-    }
-
-    #contato h2 {
-        font-size: 2vh;
-    }
-
-    #contato p,
-    #contato i {
-        font-size: 2vh;
+        font-size: 2.5em;
     }
 
     #whatzap button {
         width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: clamp(10px, 4vw, 14px);
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header div a {
+        font-size: 1.5em;
+    }
+
+    #secao-1 h2 {
+        font-size: 3em;
+    }
+
+    #contato h1 {
+        font-size: 2em;
+    }
+
+    #contato h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 1em;
+        padding: 5vh 5vw;
+    }
+
+    #secao-1 h2 {
+        font-size: 4em;
+    }
+
+    #contato h1 {
+        font-size: 2.5em;
+    }
+
+    #whatzap button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        font-size: clamp(10px, 4vw, 14px);
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header div a {
+        font-size: 1.5em;
+    }
+
+    #secao-1 h2 {
+        font-size: 3em;
+    }
+
+    #contato h1 {
+        font-size: 2em;
+    }
+
+    #contato h2 {
+        font-size: 1.5em;
     }
 }
