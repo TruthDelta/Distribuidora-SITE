@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0f0f0f;
+    padding: 3rem 5%;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+    margin: auto;
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+header div {
+    align-items: center;
+    display: flex;
+    gap: 1.2rem;
+}
+
+header div a {
+    color: white;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+header div a:hover {
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+
+div img {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 5rem 5%;
+    background-color: #0f0f0f;
+}
+
+#secao-1 h1,
+#secao-2 h1 {
+    color: white;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    text-align: center;
+}
+
+#secao-1 h2 {
+    color: white;
+    font-size: clamp(2rem, 8vw, 6rem);
+    text-align: center;
+}
+
+#secao-1 div,
+#secao-2 div {
+    background-color: white;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    letter-spacing: clamp(0.2rem, 1vw, 0.8rem);
+}
+
+#secao-1 div a,
+#secao-2 div a {
+
+    color: rgb(0, 0, 0);
+}
+
+#secao-2 h2 {
+    color: rgb(156, 156, 156);
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#contato {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3rem 5%;
+}
+
+#contato h1 {
+    color: rgb(0, 0, 0);
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    margin-bottom: 0.5rem;
+}
+
+#contato h2 {
+    color: rgb(156, 156, 156);
+    font-size: clamp(1rem, 2.5vw, 1.8rem);
+    margin-bottom: 0.5rem;
+}
+
+#whatzap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+#whatzap button {
+    align-items: center;
+    background-color: rgb(0, 73, 0);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+}
+
+#whatzap button:hover {
+    background-color: rgb(0, 180, 0);
+    transition: 0.5s;
+}
+
+#whatzap a {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.6rem;
+}
+
+#contato p,
+#contato i {
+    color: white;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+}
+
+#contato i {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+footer {
+    text-align: center;
+    background-color: #0f0f0f;
+}
+
+footer div {
+    padding: 2rem 5%;
+}
+
+footer div h1 {
+    color: rgb(156, 156, 156);
+    margin-bottom: 0.5rem;
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+
+footer div p {
+    color: white;
+    padding: 0.3rem;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+}
+
+#direito {
+    padding: 1rem;
+    background-color: rgb(173, 173, 173);
+    color: black;
+    font-size: clamp(0.7rem, 1.5vw, 1rem);
+}
