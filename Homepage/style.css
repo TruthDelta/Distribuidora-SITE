@@ -131,7 +131,7 @@ section {
 #whatzap a {
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 10px;
 }
 
