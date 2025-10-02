@@ -71,6 +71,14 @@ section {
     letter-spacing: 15px;
 }
 
+#secao-1 div a {
+    background-color: white;
+    padding: 4vh;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 15px;
+}
+
 #secao-2 h1 {
     color: rgb(255, 255, 255);
     font-size: 5vh;
@@ -172,7 +180,8 @@ footer div p {
 
 @media (max-width: 1024px) {
     header {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
         gap: 20px;
         padding: 5vh 5vw;
     }
@@ -266,4 +275,30 @@ footer div p {
     #whatzap button {
         width: 100%;
     }
+}
+
+@media (max-width: 375px) {
+    header h1 { font-size: 3vh; }
+    header div a { font-size: 2vh; }
+
+    #secao-1 h2 { font-size: 4vh; }
+    #contato h1 { font-size: 3vh; }
+    #contato h2 { font-size: 1.8vh; }
+    #contato p, #contato i { font-size: 1.8vh; }
+}
+
+@media (max-width: 320px) {
+    header { gap: 10px; }
+    header h1 { font-size: 2.5vh; }
+    header div a { font-size: 1.8vh; }
+
+    #secao-1 h1, #secao-2 h1 { font-size: 2.5vh; }
+    #secao-1 h2 { font-size: 3.5vh; }
+
+    #contato h1 { font-size: 2.5vh; }
+    #contato h2 { font-size: 1.5vh; }
+    #contato i { font-size: 5vh;}
+    #contato p { font-size: 3vh; }
+
+    #whatzap button { font-size: 0.8em; padding: 0.5em; }
 }
